@@ -22,7 +22,7 @@ Written in python 3.10. :)
 
 ---
 
-## Output Example
+## Quick & Dirty Output Example
 
 ### Bar Graph
 
