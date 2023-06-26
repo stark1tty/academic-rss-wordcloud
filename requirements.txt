@@ -1,2 +1,5 @@
-pandas
-tkinter
+feedparser
+matplotlib
+nltk
+wordcloud
+networkx
