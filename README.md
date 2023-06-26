@@ -15,12 +15,12 @@
 
 ### Bar Graph
 
-![](images\baroutput.png)
+![](\images\baroutput.png)
 
 ### Word Cloud
 
-![](images\wordcloudoutput.png)
+![](\images\wordcloudoutput.png)
 
 ### Network  Graph
 
-![](images\networkoutput.png)
+![](\images\networkoutput.png)
