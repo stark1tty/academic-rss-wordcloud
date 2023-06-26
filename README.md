@@ -8,6 +8,9 @@
 - Add your RSS feeds to rssfeeds.csv
 - keywords.csv are filters, adjust as needed
 - Adjust the amount of common words chosen in main.py
+- Run main.py
+- ???
+- Profit!!!
 
 ---
 
