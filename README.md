@@ -7,20 +7,21 @@
 
 - Add your RSS feeds to rssfeeds.csv
 - keywords.csv are filters, adjust as needed
-- adjust amount of common words chosen in main.py
+- Adjust the amount of common words chosen in main.py
 
-
+---
 
 ## Output Example
 
 ### Bar Graph
 
-![](\images\baroutput.png)
+![Bar Graph](/images/baroutput.png)
 
 ### Word Cloud
 
-![](\images\wordcloudoutput.png)
+![Word Cloud](/images/wordcloudoutput.png)
 
-### Network  Graph
+### Network Graph
 
-![](\images\networkoutput.png)
+![Network Graph](/images/networkoutput.png)
+
