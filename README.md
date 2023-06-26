@@ -18,6 +18,7 @@ Written in python 3.10. :)
 ## Some Feed Links
 - https://github.com/sg-s/science-journal-feeds/blob/master/all-feeds.txt
 - https://github.com/Stramon1um/academic_journals_rss_feed
+- https://libguides.asu.edu/keepcurrent/KeepCurrentRSSFeeds
 
 ---
 
