@@ -12,6 +12,7 @@ import networkx as nx
 
 import re
 import string
+import os
 
 # Download the stopwords if not already downloaded
 nltk.download('stopwords')
@@ -38,8 +39,12 @@ for rss_feed_url in rss_feeds:
 
 # Append the post bodies to the "post_bodies.csv" file
 post_bodies_csv_filename = "post_bodies.csv"
+file_exists = os.path.isfile(post_bodies_csv_filename)
+
 with open(post_bodies_csv_filename, "a", newline="", encoding='utf-8') as csv_file:
     writer = csv.writer(csv_file)
+    if not file_exists:  # Check if the file already exists
+        writer.writerow(["Post Body"])  # Write the header if it's a new file
     writer.writerows([[body] for body in post_bodies])
 
 print(f"Post bodies appended to {post_bodies_csv_filename}.")
@@ -111,9 +116,6 @@ plt.figure(figsize=(10, 5))
 plt.imshow(wordcloud, interpolation='bilinear')
 plt.axis('off')
 plt.show()
-
-import matplotlib.pyplot as plt
-import networkx as nx
 
 # Generate the network graph
 G = nx.Graph()
